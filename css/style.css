@@ -842,6 +842,53 @@ opacity: .5; }
 
     }
 
+
+    .overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0,0,0,0.5);
+        z-index: 1;
+    }
+    
     .well-block p {
         text-align: justify;
+    }
+    
+    .pad-15-top {
+        padding-top: 15px;
+    }
+    
+    .img-responsive .center {
+        margin: 0 auto;
+    }
+
+    .block_content {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        z-index: 2;
+    }
+    .block_content h2,h3 {
+        color: white;
+    }
+    .inline {
+        display: inline;
+    }
+    .carousel h1 {
+        color: white;
+    }
+    .carousel p {
+        color:#fff2d9;
+        font-family: 'Montserrat', sans-serif;
+        font-size: medium;
+    }
+    .breadcrumb li a {
+        margin-right: 10px;
+    }
+    #navigation li.active {
+        text-decoration: underline;
     }
