@@ -166,9 +166,13 @@ label { }
 -------------------------*/
 
 /*Note: Section space help to create top bottom space;*/
-
+.space-tiny-top { padding-top: 20px; }
 .space-small { padding-top: 40px; padding-bottom: 40px; }
+.space-small-top {padding-top: 40px;}
+.space-small-bottom {padding-bottom: 40px;}
+.space-tiny-bottom {padding-bottom: 20px;}
 .space-medium { padding-top: 100px; padding-bottom: 100px; }
+.space-medium-bottom { padding-bottom: 100px; }
 .space-large { padding-top: 120px; padding-bottom: 120px; }
 .space-ex-large { padding-top: 140px; padding-bottom: 140px; }
 
@@ -891,4 +895,10 @@ opacity: .5; }
     }
     #navigation li.active {
         text-decoration: underline;
+    }
+    h1 .danger {
+        color:red;
+    }
+    p {
+        text-align: justify;
     }
